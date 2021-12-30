@@ -31,7 +31,13 @@
 
     <main class="main">
       <section class="primary-section">
-        <picture class="cover"></picture>
+        <div class="gallery">
+          <picture class="cover"></picture>
+          <div class="subgallery">
+            <picture class="subgallery-picture"></picture>
+            <picture class="subgallery-picture"></picture>
+          </div>
+        </div>
         <div class="section-content">
           <h1 class="section-heading">The purpose of the application</h1>
           <p class="section-paragraph">
@@ -47,7 +53,7 @@
       </section>
 
       <section class="secondary-section">
-        <picture class="cover"></picture>
+        <picture class="section-picture"></picture>
         <div class="section-content">
           <h2 class="section-heading">Our favourite planet</h2>
           <p class="section-paragraph">
@@ -76,7 +82,12 @@
           type="text"
         /><button class="newsletter-button" disabled>
           Subscribe
-          <div class="button-icon"></div>
+          <svg class="button-icon" viewBox="0 0 24 24">
+            <path
+              fill="#ffffff"
+              d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
+            />
+          </svg>
         </button>
       </div>
     </section>
@@ -102,8 +113,8 @@
       </ul>
       <span class="author">Ackroyd - Bartłomiej Wiśniewski</span>
       <div class="footer-links">
-        <a class="footer-link" href="#">robots.txt</a>
-        <a class="footer-link" href="#">humans.txt</a>
+        <a class="footer-link" href="robots.txt">robots.txt</a>
+        <a class="footer-link" href="humans.txt">humans.txt</a>
       </div>
     </footer>
   </body>
